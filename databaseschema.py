@@ -278,7 +278,7 @@ def createLists(listType='All', version=None):
                          Lists('itemCategory', 'Sorbeto'), Lists('itemCategory', 'Flavour')]
         season_list = [Lists('season', 'All Year'), Lists('season', 'Passover')]
         
-        settings_list = [Settings('__version__', None, None, '1.0.4'), Settings('update_price', None, False), 
+        settings_list = [Settings('__version__', None, None, '1.0.6'), Settings('update_price', None, False), 
                          Settings('check_price', None, True, '5.0'), Settings('default_date', None, None, 'current'),
                          Settings('closing_date', datetime.datetime.now().date(), False), 
                          Settings('export_accounts', None, None, 'account1|account2|account3|account4')]
